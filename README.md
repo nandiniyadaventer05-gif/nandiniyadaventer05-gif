@@ -55,12 +55,3 @@
 **Powered by [Profile Aura](https://github.com/kalashmishra21/profile-aura)** ✨
 
 </div>
-
-
----
-
-<div align="center">
-
-**Powered by [Profile Aura](https://github.com/kalashmishra21/profile-aura)** ✨
-
-</div>
