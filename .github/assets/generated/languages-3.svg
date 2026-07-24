@@ -1,0 +1,997 @@
+
+    <svg
+      width="800"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      role="img"
+      aria-label="Top Languages Card"
+    >
+      <defs>
+        <!-- Gradient for background -->
+        <linearGradient id="lang-bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="rgba(13, 17, 23, 0.95)" />
+          <stop offset="100%" stop-color="rgba(13, 17, 23, 0.85)" />
+        </linearGradient>
+
+        <!-- Shimmer gradient for progress bars -->
+        <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="white" stop-opacity="0" />
+          <stop offset="50%" stop-color="white" stop-opacity="0.8" />
+          <stop offset="100%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+
+        <!-- Glow filter -->
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+          <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+
+      <!-- Background -->
+      <rect width="800" height="300" rx="15" fill="url(#lang-bg-gradient)" />
+
+      <!-- Animated background effects -->
+      <g class="particles">
+      <circle cx="329.6252660723105" cy="160.98210599852035" r="2.4149377093579334" fill="white" opacity="0.3051620810471129">
+        <animate
+          attributeName="cy"
+          from="160.98210599852035"
+          to="60.98210599852035"
+          dur="3.2230834954270264s"
+          begin="1.2701396536172367s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.3051620810471129;0;0.3051620810471129"
+          dur="3.2230834954270264s"
+          begin="1.2701396536172367s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="52.21430712133195" cy="14.874677260608781" r="2.8396103992065562" fill="white" opacity="0.3437127791044805">
+        <animate
+          attributeName="cy"
+          from="14.874677260608781"
+          to="-85.12532273939122"
+          dur="3.428493758952361s"
+          begin="0.08570014191769992s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.3437127791044805;0;0.3437127791044805"
+          dur="3.428493758952361s"
+          begin="0.08570014191769992s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="394.1358026557987" cy="294.72629855395064" r="1.7699927457102023" fill="white" opacity="0.6564161163783049">
+        <animate
+          attributeName="cy"
+          from="294.72629855395064"
+          to="194.72629855395064"
+          dur="3.2975228610561818s"
+          begin="0.5122795283547763s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.6564161163783049;0;0.6564161163783049"
+          dur="3.2975228610561818s"
+          begin="0.5122795283547763s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="509.07621660519294" cy="271.47816289245293" r="2.15960269757314" fill="white" opacity="0.601826330199766">
+        <animate
+          attributeName="cy"
+          from="271.47816289245293"
+          to="171.47816289245293"
+          dur="5.677286233769731s"
+          begin="1.0149541574105636s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.601826330199766;0;0.601826330199766"
+          dur="5.677286233769731s"
+          begin="1.0149541574105636s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="574.1897551292082" cy="158.47198763011943" r="2.191631197685597" fill="white" opacity="0.5650712388382646">
+        <animate
+          attributeName="cy"
+          from="158.47198763011943"
+          to="58.47198763011943"
+          dur="6.002053325449945s"
+          begin="1.2569048455193306s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.5650712388382646;0;0.5650712388382646"
+          dur="6.002053325449945s"
+          begin="1.2569048455193306s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="112.81263134241772" cy="92.88210016619145" r="3.6902422515574527" fill="white" opacity="0.30594640049225413">
+        <animate
+          attributeName="cy"
+          from="92.88210016619145"
+          to="-7.117899833808551"
+          dur="4.955768987480905s"
+          begin="0.8782000325845036s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.30594640049225413;0;0.30594640049225413"
+          dur="4.955768987480905s"
+          begin="0.8782000325845036s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="205.50662964484712" cy="266.0097108621617" r="3.8302381002495194" fill="white" opacity="0.6526330669448261">
+        <animate
+          attributeName="cy"
+          from="266.0097108621617"
+          to="166.00971086216168"
+          dur="3.2068005171748366s"
+          begin="1.0475526998381524s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.6526330669448261;0;0.6526330669448261"
+          dur="3.2068005171748366s"
+          begin="1.0475526998381524s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="564.9093462099607" cy="232.83725658220814" r="2.798378199822956" fill="white" opacity="0.6922405882808771">
+        <animate
+          attributeName="cy"
+          from="232.83725658220814"
+          to="132.83725658220814"
+          dur="5.692429042587458s"
+          begin="0.0063937212960762935s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.6922405882808771;0;0.6922405882808771"
+          dur="5.692429042587458s"
+          begin="0.0063937212960762935s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="230.16106579383654" cy="30.00060327591678" r="1.9251847697466942" fill="white" opacity="0.4565584333766354">
+        <animate
+          attributeName="cy"
+          from="30.00060327591678"
+          to="-69.99939672408323"
+          dur="6.668258543474385s"
+          begin="1.7491203507714994s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.4565584333766354;0;0.4565584333766354"
+          dur="6.668258543474385s"
+          begin="1.7491203507714994s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="302.5418143744904" cy="81.95304587226097" r="3.701282655452805" fill="white" opacity="0.48167193527231766">
+        <animate
+          attributeName="cy"
+          from="81.95304587226097"
+          to="-18.046954127739028"
+          dur="6.663699286224872s"
+          begin="0.011772406730007123s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.48167193527231766;0;0.48167193527231766"
+          dur="6.663699286224872s"
+          begin="0.011772406730007123s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="264.7942667814936" cy="187.19003488215492" r="3.707938255851646" fill="white" opacity="0.6183338230586055">
+        <animate
+          attributeName="cy"
+          from="187.19003488215492"
+          to="87.19003488215492"
+          dur="5.415438119738057s"
+          begin="0.8916638043280809s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.6183338230586055;0;0.6183338230586055"
+          dur="5.415438119738057s"
+          begin="0.8916638043280809s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="298.5488794985566" cy="113.70266525131372" r="2.929100013438563" fill="white" opacity="0.3312588613177909">
+        <animate
+          attributeName="cy"
+          from="113.70266525131372"
+          to="13.702665251313718"
+          dur="6.120462898504349s"
+          begin="0.04989132777916927s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.3312588613177909;0;0.3312588613177909"
+          dur="6.120462898504349s"
+          begin="0.04989132777916927s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="274.90084379140194" cy="75.68603801378681" r="3.191995960487209" fill="white" opacity="0.3133303439857861">
+        <animate
+          attributeName="cy"
+          from="75.68603801378681"
+          to="-24.313961986213187"
+          dur="5.522241768126195s"
+          begin="0.4585082836597678s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.3133303439857861;0;0.3133303439857861"
+          dur="5.522241768126195s"
+          begin="0.4585082836597678s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="408.9417162889111" cy="34.38579761613818" r="1.9716437347958204" fill="white" opacity="0.5396078681387294">
+        <animate
+          attributeName="cy"
+          from="34.38579761613818"
+          to="-65.61420238386182"
+          dur="3.935086467114262s"
+          begin="1.1281447348543745s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.5396078681387294;0;0.5396078681387294"
+          dur="3.935086467114262s"
+          begin="1.1281447348543745s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="558.0497487174986" cy="220.13828382977601" r="1.7127595696559301" fill="white" opacity="0.5974432781067691">
+        <animate
+          attributeName="cy"
+          from="220.13828382977601"
+          to="120.13828382977601"
+          dur="6.997148262064348s"
+          begin="1.7995167126275562s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.5974432781067691;0;0.5974432781067691"
+          dur="6.997148262064348s"
+          begin="1.7995167126275562s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="501.0682077556728" cy="125.29976808948106" r="2.839089275797653" fill="white" opacity="0.3776339024410362">
+        <animate
+          attributeName="cy"
+          from="125.29976808948106"
+          to="25.299768089481063"
+          dur="5.996781486614905s"
+          begin="0.9876330767804578s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.3776339024410362;0;0.3776339024410362"
+          dur="5.996781486614905s"
+          begin="0.9876330767804578s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="98.06883955116099" cy="85.69873831265562" r="3.6028512237076376" fill="white" opacity="0.5446234854211122">
+        <animate
+          attributeName="cy"
+          from="85.69873831265562"
+          to="-14.301261687344379"
+          dur="4.064989959977874s"
+          begin="1.0742855255614585s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.5446234854211122;0;0.5446234854211122"
+          dur="4.064989959977874s"
+          begin="1.0742855255614585s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="378.1172208291251" cy="115.44665791345064" r="3.9814068881089897" fill="white" opacity="0.45894860074519583">
+        <animate
+          attributeName="cy"
+          from="115.44665791345064"
+          to="15.446657913450636"
+          dur="3.9205172770010037s"
+          begin="1.2284284473765363s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.45894860074519583;0;0.45894860074519583"
+          dur="3.9205172770010037s"
+          begin="1.2284284473765363s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="197.9479580428169" cy="106.07185369781456" r="2.2991458331688657" fill="white" opacity="0.6498489639908686">
+        <animate
+          attributeName="cy"
+          from="106.07185369781456"
+          to="6.071853697814561"
+          dur="3.3980499154875607s"
+          begin="0.6017878601659548s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.6498489639908686;0;0.6498489639908686"
+          dur="3.3980499154875607s"
+          begin="0.6017878601659548s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="283.601263213448" cy="89.55841492341014" r="1.1345203339646333" fill="white" opacity="0.5374289481046592">
+        <animate
+          attributeName="cy"
+          from="89.55841492341014"
+          to="-10.44158507658986"
+          dur="4.800499536429478s"
+          begin="0.0919679287048969s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0.5374289481046592;0;0.5374289481046592"
+          dur="4.800499536429478s"
+          begin="0.0919679287048969s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    </g>
+      <g class="sparkles">
+      <circle cx="766.0489473771453" cy="260.0737719653817" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.065827757710831;0"
+          dur="2.839797197836157s"
+          begin="0.8132318795582396s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="2.839797197836157s"
+          begin="0.8132318795582396s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="59.80756179207738" cy="235.4140741719231" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;1.5074078097941683;0"
+          dur="2.9299086323853047s"
+          begin="1.738095094882431s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="2.9299086323853047s"
+          begin="1.738095094882431s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="15.045586051951254" cy="176.71837894735506" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;1.9640097408294284;0"
+          dur="1.415294133593287s"
+          begin="0.053347095972878344s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.415294133593287s"
+          begin="0.053347095972878344s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="578.4482511682363" cy="3.0601410722115086" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;1.9596976650101134;0"
+          dur="2.8099087862870595s"
+          begin="2.0327743566477956s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="2.8099087862870595s"
+          begin="2.0327743566477956s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="449.0834017887762" cy="67.21344379694794" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.836494533337635;0"
+          dur="1.1282250304957993s"
+          begin="1.8012747952828274s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.1282250304957993s"
+          begin="1.8012747952828274s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="363.7627593182199" cy="101.49481528728626" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;1.7627862127209735;0"
+          dur="2.653569911203444s"
+          begin="2.9223523000253433s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="2.653569911203444s"
+          begin="2.9223523000253433s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="701.4361182262265" cy="286.18311618327346" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.9646601520724336;0"
+          dur="1.1831431614606296s"
+          begin="0.6706112025187334s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.1831431614606296s"
+          begin="0.6706112025187334s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="86.0491952883697" cy="201.6949852938513" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.268111726054268;0"
+          dur="1.7497983739774354s"
+          begin="2.6732036234464074s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.7497983739774354s"
+          begin="2.6732036234464074s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="324.88134953087456" cy="112.7862771741298" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.056726098562656;0"
+          dur="1.2843000321873723s"
+          begin="2.37172272604857s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.2843000321873723s"
+          begin="2.37172272604857s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="564.1826013237893" cy="296.26556070003903" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.08880299610661;0"
+          dur="1.69344763393396s"
+          begin="0.6869820035073348s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.69344763393396s"
+          begin="0.6869820035073348s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="209.62163257896069" cy="222.90143180809733" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.990342859070714;0"
+          dur="1.2050922761785539s"
+          begin="0.8975896799585064s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.2050922761785539s"
+          begin="0.8975896799585064s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    
+      <circle cx="326.7899745301911" cy="77.57250306645595" r="0" fill="white" opacity="0.8">
+        <animate
+          attributeName="r"
+          values="0;2.8372339620589804;0"
+          dur="1.2735136841425985s"
+          begin="0.8661720181209247s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="1.2735136841425985s"
+          begin="0.8661720181209247s"
+          repeatCount="indefinite"
+        />
+      </circle>
+    </g>
+
+      <!-- Glass card effect -->
+      <rect
+        x="5"
+        y="5"
+        width="790"
+        height="290"
+        rx="12"
+        fill="rgba(13, 17, 23, 0.3)"
+        stroke="rgba(250, 112, 154, 0.2)"
+        stroke-width="1"
+      />
+
+      <!-- Border glow animation -->
+      
+    <defs>
+      <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#667eea" />
+        <stop offset="50%" stop-color="#764ba2" />
+        <stop offset="100%" stop-color="#f093fb" />
+        <animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect 
+      x="2" 
+      y="2" 
+      width="796" 
+      height="296" 
+      rx="15" 
+      fill="none" 
+      stroke="url(#borderGradient)" 
+      stroke-width="3"
+    >
+      <animate 
+        attributeName="stroke-width" 
+        values="3;5;3" 
+        dur="2s" 
+        repeatCount="indefinite" 
+      />
+    </rect>
+  
+
+      <!-- Title -->
+      <text
+        x="40"
+        y="50"
+        font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+        font-size="22"
+        font-weight="700"
+        fill="#c9d1d9"
+      >
+        💻 Most Used Languages
+      </text>
+
+      <!-- Subtitle -->
+      <text
+        x="40"
+        y="72"
+        font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+        font-size="13"
+        font-weight="400"
+        fill="rgba(201, 209, 217, 0.6)"
+      >
+        Based on repository analysis
+      </text>
+
+      <!-- Language bars -->
+      
+      <!-- Language 1: JavaScript -->
+      <g>
+        <!-- Color dot with glow -->
+        <circle
+          cx="50"
+          cy="165"
+          r="6"
+          fill="#f1e05a"
+          filter="url(#glow)"
+        >
+          <animate
+            attributeName="r"
+            values="6;8;6"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </circle>
+
+        <!-- Language name -->
+        <text
+          x="70"
+          y="169"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#c9d1d9"
+        >
+          JavaScript
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0s"
+            fill="freeze"
+          />
+        </text>
+
+        <!-- Progress bar background -->
+        <rect
+          x="200"
+          y="161"
+          width="520"
+          height="8"
+          rx="4"
+          fill="rgba(201, 209, 217, 0.1)"
+        />
+
+        <!-- Progress bar fill with animation -->
+        <rect
+          x="200"
+          y="161"
+          width="0"
+          height="8"
+          rx="4"
+          fill="#f1e05a"
+        >
+          <animate
+            attributeName="width"
+            from="0"
+            to="503.69713445340705"
+            dur="1.5s"
+            begin="0s"
+            fill="freeze"
+          />
+        </rect>
+
+        <!-- Shimmer effect on progress bar -->
+        <rect
+          x="200"
+          y="161"
+          width="503.69713445340705"
+          height="8"
+          rx="4"
+          fill="url(#shimmer)"
+          opacity="0.3"
+        >
+          <animate
+            attributeName="x"
+            from="200"
+            to="753.697134453407"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </rect>
+
+        <!-- Percentage text -->
+        <text
+          x="750"
+          y="169"
+          text-anchor="end"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#f1e05a"
+        >
+          96.9%
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0.3s"
+            fill="freeze"
+          />
+        </text>
+      </g>
+    
+      <!-- Language 2: CSS -->
+      <g>
+        <!-- Color dot with glow -->
+        <circle
+          cx="50"
+          cy="220"
+          r="6"
+          fill="#563d7c"
+          filter="url(#glow)"
+        >
+          <animate
+            attributeName="r"
+            values="6;8;6"
+            dur="2s"
+            begin="0.3s"
+            repeatCount="indefinite"
+          />
+        </circle>
+
+        <!-- Language name -->
+        <text
+          x="70"
+          y="224"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#c9d1d9"
+        >
+          CSS
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0.15s"
+            fill="freeze"
+          />
+        </text>
+
+        <!-- Progress bar background -->
+        <rect
+          x="200"
+          y="216"
+          width="520"
+          height="8"
+          rx="4"
+          fill="rgba(201, 209, 217, 0.1)"
+        />
+
+        <!-- Progress bar fill with animation -->
+        <rect
+          x="200"
+          y="216"
+          width="0"
+          height="8"
+          rx="4"
+          fill="#563d7c"
+        >
+          <animate
+            attributeName="width"
+            from="0"
+            to="14.84522483176612"
+            dur="1.5s"
+            begin="0.15s"
+            fill="freeze"
+          />
+        </rect>
+
+        <!-- Shimmer effect on progress bar -->
+        <rect
+          x="200"
+          y="216"
+          width="14.84522483176612"
+          height="8"
+          rx="4"
+          fill="url(#shimmer)"
+          opacity="0.3"
+        >
+          <animate
+            attributeName="x"
+            from="200"
+            to="264.84522483176613"
+            dur="2s"
+            begin="0.3s"
+            repeatCount="indefinite"
+          />
+        </rect>
+
+        <!-- Percentage text -->
+        <text
+          x="750"
+          y="224"
+          text-anchor="end"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#563d7c"
+        >
+          2.9%
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0.44999999999999996s"
+            fill="freeze"
+          />
+        </text>
+      </g>
+    
+      <!-- Language 3: HTML -->
+      <g>
+        <!-- Color dot with glow -->
+        <circle
+          cx="50"
+          cy="275"
+          r="6"
+          fill="#e34c26"
+          filter="url(#glow)"
+        >
+          <animate
+            attributeName="r"
+            values="6;8;6"
+            dur="2s"
+            begin="0.6s"
+            repeatCount="indefinite"
+          />
+        </circle>
+
+        <!-- Language name -->
+        <text
+          x="70"
+          y="279"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#c9d1d9"
+        >
+          HTML
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0.3s"
+            fill="freeze"
+          />
+        </text>
+
+        <!-- Progress bar background -->
+        <rect
+          x="200"
+          y="271"
+          width="520"
+          height="8"
+          rx="4"
+          fill="rgba(201, 209, 217, 0.1)"
+        />
+
+        <!-- Progress bar fill with animation -->
+        <rect
+          x="200"
+          y="271"
+          width="0"
+          height="8"
+          rx="4"
+          fill="#e34c26"
+        >
+          <animate
+            attributeName="width"
+            from="0"
+            to="1.457640714826864"
+            dur="1.5s"
+            begin="0.3s"
+            fill="freeze"
+          />
+        </rect>
+
+        <!-- Shimmer effect on progress bar -->
+        <rect
+          x="200"
+          y="271"
+          width="1.457640714826864"
+          height="8"
+          rx="4"
+          fill="url(#shimmer)"
+          opacity="0.3"
+        >
+          <animate
+            attributeName="x"
+            from="200"
+            to="251.45764071482685"
+            dur="2s"
+            begin="0.6s"
+            repeatCount="indefinite"
+          />
+        </rect>
+
+        <!-- Percentage text -->
+        <text
+          x="750"
+          y="279"
+          text-anchor="end"
+          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+          font-size="15"
+          font-weight="600"
+          fill="#e34c26"
+        >
+          0.3%
+          <animate
+            attributeName="opacity"
+            values="0;1"
+            dur="0.6s"
+            begin="0.6s"
+            fill="freeze"
+          />
+        </text>
+      </g>
+    
+    </svg>
+  

@@ -1,4 +1,4 @@
-# Hi, I'm nandiniyadaventer05-gif! 👋
+# Hi, I am Nandini Yadav! 👋
 
 <div align="center">
 
@@ -22,10 +22,31 @@
 
 </div>
 
+## 📈 Most Used Languages
+
+<div align="center">
+
+![languages card](.github/assets/generated/languages-3.svg)
+
+</div>
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+![streak card](.github/assets/generated/streak-4.svg)
+
+</div>
+
 ## 📫 Connect with Me
 
-- GitHub: [@nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif)
-- Email: your.email@example.com
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nandiniyadaventer05-gif)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nandini-yadav)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nandiniyadaventer05@gmail.com)
+
+</div>
 
 ---
 
