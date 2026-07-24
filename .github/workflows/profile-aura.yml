@@ -24,14 +24,20 @@ jobs:
         with:
           node-version: '20'
           
-      - name: Install Profile Aura
-        run: npm install -g profile-aura
+      - name: Clone Profile Aura Repository
+        run: git clone https://github.com/kalashmishra21/profile-aura.git /tmp/profile-aura
+        
+      - name: Install Profile Aura Dependencies
+        run: |
+          cd /tmp/profile-aura
+          npm ci
+          npm run build
         
       - name: Generate README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: nandiniyadaventer05-gif
-        run: profile-aura build
+        run: node /tmp/profile-aura/dist/cli.js build
         
       - name: Commit and push if changed
         run: |
