@@ -66,7 +66,11 @@
     },
     "topRepositories": {
       "enabled": true,
-      "limit": 6
+      "limit": 4,
+      "featuredRepositories": [
+        "nandiniyadaventer05-gif",
+        "OJT-PROJECT"
+      ]
     },
     "socials": {
       "enabled": true

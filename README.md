@@ -23,16 +23,8 @@
 </div>
 
 **[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**
-No repository description available.
 
 **[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)**  `JavaScript`
-No repository description available.
-
-**[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**
-No repository description available.
-
-**[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**
-No repository description available.
 
 ---
 
