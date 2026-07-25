@@ -27,7 +27,7 @@
 ### 🤝 Connect & Social Links
 
 <p align="center">
-<a href="https://github.com/nandiniyadaventer05-gif"><img src="https://img.shields.io/badge/GITHUB-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a> <a href="https://www.linkedin.com/in/nandini-yadav-88b008380/"><img src="https://img.shields.io/badge/LINKEDIN-A855F7?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a> <a href="mailto:nandiniyadaventer05@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=email&logoColor=white" alt="email" /></a>
+<a href="https://github.com/nandiniyadaventer05-gif"><img src="https://img.shields.io/badge/GITHUB-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a> <a href="https://www.linkedin.com/in/nandini-yadav-88b008380/"><img src="https://img.shields.io/badge/LINKEDIN-A855F7?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a> <a href="mailto:nandiniyadaventer05@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 </p>
 
 </div>
