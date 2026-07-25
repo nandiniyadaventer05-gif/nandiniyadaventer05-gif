@@ -19,28 +19,68 @@ Building modern web applications, interactive UI components, and software soluti
 
 <div align="center">
 
-### ⚡ Developer Activity & Key Performance
+### ⚡ Developer Activity & Performance
 
 </div>
 
-<table width="100%">
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
-<td width="50%" valign="top">
+<td width="25%" align="center" valign="top">
 
-#### 📊 Performance & Contributions
-- **Total Contributions:** `334`
-- **Total Commits:** `160`
-- **Pull Requests:** `24`
-- **Issues Opened:** `12`
+#### ⚡ CONTRIBUTIONS
+# `334`
+<sub>Total Activity</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" align="center" valign="top">
 
-#### ⭐ Community Reach & Repositories
-- **Public Repositories:** `16`
-- **Stars Earned:** `0`
-- **Followers:** `1`
-- **Following:** `1`
+#### 💻 COMMITS
+# `160`
+<sub>Code Commits</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### 🔀 PULL REQUESTS
+# `24`
+<sub>Merged PRs</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### 🎯 ISSUES
+# `12`
+<sub>Resolved Issues</sub>
+
+</td>
+</tr>
+<tr>
+<td width="25%" align="center" valign="top">
+
+#### 📦 PUBLIC REPOS
+# `16`
+<sub>Repositories</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### ⭐ TOTAL STARS
+# `0`
+<sub>Stars Earned</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### 👥 FOLLOWERS
+# `1`
+<sub>Community</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### 🔄 FOLLOWING
+# `1`
+<sub>Following</sub>
 
 </td>
 </tr>
