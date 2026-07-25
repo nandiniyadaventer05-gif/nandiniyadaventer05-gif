@@ -17,13 +17,7 @@
       "following": 1,
       "publicRepos": 16,
       "stats": {
-        "totalContributions": 334,
-        "totalCommits": 160,
-        "totalPRs": 24,
-        "totalIssues": 12,
-        "totalStars": 0,
-        "currentStreak": 14,
-        "longestStreak": 42
+        "totalStars": 0
       },
       "repositories": [
         {
@@ -33,7 +27,9 @@
           "stargazerCount": 0,
           "forkCount": 0,
           "primaryLanguage": null,
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-07-25T12:59:51Z",
+          "license": null
         },
         {
           "name": "OJT-PROJECT",
@@ -45,7 +41,9 @@
             "name": "JavaScript",
             "color": "#38BDF8"
           },
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-05-06T10:37:49Z",
+          "license": null
         },
         {
           "name": "ecommerce-automation-n8n",
@@ -54,7 +52,9 @@
           "stargazerCount": 0,
           "forkCount": 0,
           "primaryLanguage": null,
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:56:16Z",
+          "license": null
         },
         {
           "name": "smart-business-automation",
@@ -63,7 +63,9 @@
           "stargazerCount": 0,
           "forkCount": 0,
           "primaryLanguage": null,
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:55:47Z",
+          "license": null
         },
         {
           "name": "n8n-automation-hub",
@@ -72,7 +74,9 @@
           "stargazerCount": 0,
           "forkCount": 0,
           "primaryLanguage": null,
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:55:04Z",
+          "license": null
         },
         {
           "name": "-Kulhad-Chai-Full-Stack-Web-App",
@@ -81,7 +85,9 @@
           "stargazerCount": 0,
           "forkCount": 0,
           "primaryLanguage": null,
-          "isFork": false
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:52:56Z",
+          "license": null
         }
       ],
       "topLanguages": [
@@ -97,7 +103,7 @@
         "email": "mailto:nandiniyadaventer05@gmail.com"
       }
     },
-    "timestamp": 1784972336844,
+    "timestamp": 1784984982396,
     "ttlMs": 86400000
   }
 }
