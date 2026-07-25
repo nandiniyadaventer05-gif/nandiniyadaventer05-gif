@@ -1,785 +1,502 @@
-
-    <svg
+<svg
       width="800"
       height="300"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Contribution Streak Card"
+      aria-label="GitHub Statistics Card"
     >
       <defs>
-        <!-- Gradient for background -->
-        <linearGradient id="streak-bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="rgba(13, 17, 23, 0.95)" />
-          <stop offset="100%" stop-color="rgba(13, 17, 23, 0.85)" />
+        <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="rgba(15, 23, 42, 0.98)" />
+          <stop offset="100%" stop-color="rgba(30, 41, 59, 0.98)" />
         </linearGradient>
-
-        <!-- Gradient for current streak number -->
-        <linearGradient id="current-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#fa709a" />
-          <stop offset="100%" stop-color="#fee140" />
+        
+        <linearGradient id="streak-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="rgba(239, 68, 68, 0.15)" />
+          <stop offset="100%" stop-color="rgba(139, 92, 246, 0.15)" />
         </linearGradient>
-
-        <!-- Fire glow filter -->
-        <filter id="fire-glow">
-          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
-          <feMerge>
-            <feMergeNode in="coloredBlur"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
       </defs>
 
       <!-- Background -->
-      <rect width="800" height="300" rx="15" fill="url(#streak-bg-gradient)" />
-
-      <!-- Animated background effects -->
-      <g class="orbs">
-      <circle cx="107.95023456435882" cy="316.69962678012166" r="50.65442710668653" fill="#667eea" opacity="0.1">
-        <animate
-          attributeName="cy"
-          from="316.69962678012166"
-          to="-50.65442710668653"
-          dur="18.934975027634653s"
-          begin="4.427990626429175s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="cx"
-          values="107.95023456435882;74.21511648733677;107.95023456435882"
-          dur="18.934975027634653s"
-          begin="4.427990626429175s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="50.65442710668653;60.78531252802384;50.65442710668653"
-          dur="9.467487513817327s"
-          begin="4.427990626429175s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="360.4802818259237" cy="361.3236638726333" r="44.88504544485693" fill="#764ba2" opacity="0.1">
-        <animate
-          attributeName="cy"
-          from="361.3236638726333"
-          to="-44.88504544485693"
-          dur="19.109567552296042s"
-          begin="0.11041255375060399s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="cx"
-          values="360.4802818259237;314.92412883912925;360.4802818259237"
-          dur="19.109567552296042s"
-          begin="0.11041255375060399s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="44.88504544485693;53.862054533828314;44.88504544485693"
-          dur="9.554783776148021s"
-          begin="0.11041255375060399s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="102.08713353731565" cy="386.48760275141115" r="64.5865697784489" fill="#f093fb" opacity="0.1">
-        <animate
-          attributeName="cy"
-          from="386.48760275141115"
-          to="-64.5865697784489"
-          dur="10.547560962452295s"
-          begin="3.930234594755173s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="cx"
-          values="102.08713353731565;58.82330282727105;102.08713353731565"
-          dur="10.547560962452295s"
-          begin="3.930234594755173s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="64.5865697784489;77.50388373413868;64.5865697784489"
-          dur="5.273780481226147s"
-          begin="3.930234594755173s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="705.8914400259662" cy="350.3412418074557" r="69.69747572815405" fill="#4facfe" opacity="0.1">
-        <animate
-          attributeName="cy"
-          from="350.3412418074557"
-          to="-69.69747572815405"
-          dur="12.669479923858514s"
-          begin="1.8430818597042564s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="cx"
-          values="705.8914400259662;715.2980440151526;705.8914400259662"
-          dur="12.669479923858514s"
-          begin="1.8430818597042564s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="69.69747572815405;83.63697087378485;69.69747572815405"
-          dur="6.334739961929257s"
-          begin="1.8430818597042564s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="600.4100823438943" cy="369.3893064555565" r="46.310052920899174" fill="#667eea" opacity="0.1">
-        <animate
-          attributeName="cy"
-          from="369.3893064555565"
-          to="-46.310052920899174"
-          dur="12.189335794810658s"
-          begin="1.0195192613054305s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="cx"
-          values="600.4100823438943;643.1585083060513;600.4100823438943"
-          dur="12.189335794810658s"
-          begin="1.0195192613054305s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="46.310052920899174;55.57206350507901;46.310052920899174"
-          dur="6.094667897405329s"
-          begin="1.0195192613054305s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    </g>
-      <g class="sparkles">
-      <circle cx="501.1415932348958" cy="62.036149821992346" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.8331633787923725;0"
-          dur="2.5353160154201526s"
-          begin="2.4167725594325056s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.5353160154201526s"
-          begin="2.4167725594325056s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="677.697832281474" cy="53.38029499424262" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.9336688544793708;0"
-          dur="1.3545963684315527s"
-          begin="2.8883636620751387s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.3545963684315527s"
-          begin="2.8883636620751387s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="202.49286734974243" cy="201.60895959655406" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.7989587881681834;0"
-          dur="1.3355003304310453s"
-          begin="1.715211643245458s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.3355003304310453s"
-          begin="1.715211643245458s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="383.4166296260465" cy="127.02661220020917" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.4218789644808782;0"
-          dur="2.77282696269255s"
-          begin="1.4780588747850023s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.77282696269255s"
-          begin="1.4780588747850023s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="305.8482159221377" cy="39.546391123781575" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.3433004427405906;0"
-          dur="2.7965881672892343s"
-          begin="1.647070262410836s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.7965881672892343s"
-          begin="1.647070262410836s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="584.242899551898" cy="177.46312484445804" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.1246303640425777;0"
-          dur="1.8514331471206518s"
-          begin="0.9396889328318418s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.8514331471206518s"
-          begin="0.9396889328318418s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="125.04645170376901" cy="13.21243467960973" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.0075050924806157;0"
-          dur="2.390796476707609s"
-          begin="2.84890464216289s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.390796476707609s"
-          begin="2.84890464216289s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="189.5122042772398" cy="252.61813740000306" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.3591474954061895;0"
-          dur="1.933566701680968s"
-          begin="2.6455037825089116s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.933566701680968s"
-          begin="2.6455037825089116s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="418.4379648981977" cy="201.7384451579903" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.42534854979694;0"
-          dur="1.0431276856207559s"
-          begin="0.33561987337780774s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.0431276856207559s"
-          begin="0.33561987337780774s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="311.45062243528514" cy="87.17562706420526" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.7708274828170825;0"
-          dur="2.4494681519056414s"
-          begin="2.262078381348897s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.4494681519056414s"
-          begin="2.262078381348897s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="25.43358231823447" cy="256.4367441413027" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.0948588539206154;0"
-          dur="1.082640853145468s"
-          begin="0.07790994654173766s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.082640853145468s"
-          begin="0.07790994654173766s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="71.70058294387651" cy="298.85781508405853" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.421389660685065;0"
-          dur="1.4767299815548176s"
-          begin="2.704950724944913s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.4767299815548176s"
-          begin="2.704950724944913s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="58.05538045892966" cy="10.772931218042237" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.5314333137522453;0"
-          dur="1.1105813412596235s"
-          begin="2.4824896221500214s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.1105813412596235s"
-          begin="2.4824896221500214s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="345.8411884879188" cy="59.16397185136668" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.5035327939702245;0"
-          dur="2.420172281356366s"
-          begin="0.10395651691887875s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.420172281356366s"
-          begin="0.10395651691887875s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="184.3639880091697" cy="182.15706329564736" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.5290622433816377;0"
-          dur="1.9847320679228013s"
-          begin="2.133696751149003s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.9847320679228013s"
-          begin="2.133696751149003s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="798.226949372145" cy="0.9265168176129768" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.5454038925638875;0"
-          dur="1.6373112393444749s"
-          begin="1.4933353967940879s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.6373112393444749s"
-          begin="1.4933353967940879s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="681.0955967962198" cy="279.41248243948735" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.205066246570948;0"
-          dur="2.6366050589611896s"
-          begin="2.272552028322527s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.6366050589611896s"
-          begin="2.272552028322527s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="788.4168553573429" cy="40.025357832203156" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.0874375899947983;0"
-          dur="1.8458331276883309s"
-          begin="0.8637822327480118s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.8458331276883309s"
-          begin="0.8637822327480118s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="744.6368976400416" cy="178.93693139278875" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;1.51359086415543;0"
-          dur="2.030061329559973s"
-          begin="1.9111337830914656s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="2.030061329559973s"
-          begin="1.9111337830914656s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    
-      <circle cx="179.98553265958907" cy="140.27305579422853" r="0" fill="white" opacity="0.8">
-        <animate
-          attributeName="r"
-          values="0;2.540680776460589;0"
-          dur="1.1507867889403225s"
-          begin="2.7096055242091177s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="opacity"
-          values="0;0.8;0"
-          dur="1.1507867889403225s"
-          begin="2.7096055242091177s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    </g>
-
-      <!-- Glass card effect -->
-      <rect
-        x="5"
-        y="5"
-        width="790"
-        height="290"
-        rx="12"
-        fill="rgba(13, 17, 23, 0.3)"
-        stroke="rgba(250, 112, 154, 0.2)"
-        stroke-width="1"
-      />
-
-      <!-- Border glow animation -->
-      
-    <defs>
-      <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#667eea" />
-        <stop offset="50%" stop-color="#764ba2" />
-        <stop offset="100%" stop-color="#f093fb" />
-        <animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite" />
-        <animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect 
-      x="2" 
-      y="2" 
-      width="796" 
-      height="296" 
-      rx="15" 
-      fill="none" 
-      stroke="url(#borderGradient)" 
-      stroke-width="3"
-    >
-      <animate 
-        attributeName="stroke-width" 
-        values="3;5;3" 
-        dur="2s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
-  
-
-      <!-- Fire Emoji with pulse animation (centered top) -->
-      <text
-        x="400"
-        y="70"
-        text-anchor="middle"
-        font-size="48"
-        filter="url(#fire-glow)"
-      >
-        🔥
-        <animate
-          attributeName="font-size"
-          values="48;54;48"
-          dur="2s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="y"
-          values="70;66;70"
-          dur="2s"
-          repeatCount="indefinite"
-        />
-      </text>
-
-      <!-- Ripple effect behind fire -->
-      
-    <circle cx="400" cy="60" r="0" fill="none" stroke="white" stroke-width="2" opacity="0.5">
-      <animate
-        attributeName="r"
-        from="0"
-        to="60"
-        dur="2s"
-        repeatCount="indefinite"
-      />
-      <animate
-        attributeName="opacity"
-        from="0.5"
-        to="0"
-        dur="2s"
-        repeatCount="indefinite"
-      />
-    </circle>
-    <circle cx="400" cy="60" r="0" fill="none" stroke="white" stroke-width="2" opacity="0.5">
-      <animate
-        attributeName="r"
-        from="0"
-        to="60"
-        dur="2s"
-        begin="1s"
-        repeatCount="indefinite"
-      />
-      <animate
-        attributeName="opacity"
-        from="0.5"
-        to="0"
-        dur="2s"
-        begin="1s"
-        repeatCount="indefinite"
-      />
-    </circle>
-  
+      <rect width="800" height="300" rx="20" fill="url(#card-bg)" />
+      <rect width="800" height="300" rx="20" fill="none" stroke="rgba(148, 163, 184, 0.1)" stroke-width="1" />
 
       <!-- Title -->
       <text
         x="400"
-        y="120"
+        y="45"
         text-anchor="middle"
-        font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-        font-size="20"
-        font-weight="700"
+        font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="24"
+        font-weight="800"
         fill="#c9d1d9"
       >
-        Contribution Streak
+        📊 GitHub Statistics & Streaks
       </text>
-
-      <!-- Current and Longest Streak Side by Side -->
-      <g transform="translate(240, 135)">
-        <!-- Current Streak Box -->
-        <rect
-          x="0"
-          y="0"
-          width="150"
-          height="70"
-          rx="10"
-          fill="rgba(250, 112, 154, 0.15)"
-          stroke="rgba(250, 112, 154, 0.3)"
-          stroke-width="2"
-        >
-          <animate
-            attributeName="fill"
-            values="rgba(250, 112, 154, 0.15);rgba(250, 112, 154, 0.25);rgba(250, 112, 154, 0.15)"
-            dur="3s"
-            repeatCount="indefinite"
-          />
-        </rect>
-
-        <!-- Current number -->
-        <text
-          x="75"
-          y="35"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="24"
-          font-weight="700"
-          fill="url(#current-gradient)"
-        >
-          1
-        </text>
-
-        <!-- Current label -->
-        <text
-          x="75"
-          y="55"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="9"
-          font-weight="600"
-          fill="rgba(201, 209, 217, 0.6)"
-          letter-spacing="0.5"
-        >
-          CURRENT STREAK
-        </text>
-      </g>
-
-      <!-- Longest Streak Box -->
-      <g transform="translate(410, 135)">
-        <rect
-          x="0"
-          y="0"
-          width="150"
-          height="70"
-          rx="10"
-          fill="rgba(48, 207, 208, 0.15)"
-          stroke="rgba(48, 207, 208, 0.3)"
-          stroke-width="2"
-        >
-          <animate
-            attributeName="fill"
-            values="rgba(48, 207, 208, 0.15);rgba(48, 207, 208, 0.25);rgba(48, 207, 208, 0.15)"
-            dur="3s"
-            begin="0.5s"
-            repeatCount="indefinite"
-          />
-        </rect>
-
-        <!-- Longest number -->
-        <text
-          x="75"
-          y="35"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="24"
-          font-weight="700"
-          fill="#30cfd0"
-        >
-          3
-        </text>
-
-        <!-- Longest label -->
-        <text
-          x="75"
-          y="55"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="9"
-          font-weight="600"
-          fill="rgba(201, 209, 217, 0.6)"
-          letter-spacing="0.5"
-        >
-          LONGEST STREAK
-        </text>
-      </g>
-
-      <!-- Total Contributions Box (Bottom - More Space) -->
-      <g>
-        <rect
-          x="80"
-          y="220"
-          width="640"
-          height="45"
-          rx="10"
-          fill="rgba(254, 225, 64, 0.15)"
-          stroke="rgba(254, 225, 64, 0.3)"
-          stroke-width="2"
-        >
-          <animate
-            attributeName="fill"
-            values="rgba(254, 225, 64, 0.15);rgba(254, 225, 64, 0.2);rgba(254, 225, 64, 0.15)"
-            dur="3s"
-            repeatCount="indefinite"
-          />
-        </rect>
-
-        <!-- Total number -->
-        <text
-          x="400"
-          y="242"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="20"
-          font-weight="700"
-          fill="#fee140"
-        >
-          37
-        </text>
-
-        <!-- Total label -->
-        <text
-          x="400"
-          y="257"
-          text-anchor="middle"
-          font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-          font-size="8"
-          font-weight="600"
-          fill="rgba(201, 209, 217, 0.6)"
-          letter-spacing="0.5"
-        >
-          TOTAL CONTRIBUTIONS
-        </text>
-      </g>
-
-      <!-- Motivational Message -->
+      
       <text
         x="400"
-        y="285"
+        y="65"
         text-anchor="middle"
-        font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
-        font-size="12"
-        font-style="italic"
-        fill="rgba(201, 209, 217, 0.7)"
+        font-family="'Inter', sans-serif"
+        font-size="13"
+        fill="rgba(148, 163, 184, 0.7)"
       >
-        Keep the streak alive! 💪
-        <animate
-          attributeName="opacity"
-          values="0.7;1;0.7"
-          dur="3s"
-          repeatCount="indefinite"
-        />
+        Complete development metrics
       </text>
+
+      <!-- Main Stats Grid -->
+      
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="35"
+            y="85"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="150"
+            y="115"
+            text-anchor="middle"
+            font-size="20"
+          >
+            📊
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="150"
+            y="140"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#10b981"
+          >
+            38
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="150"
+            y="160"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            TOTAL CONTRIBUTIONS
+          </text>
+        </g>
+        
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="285"
+            y="85"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="400"
+            y="115"
+            text-anchor="middle"
+            font-size="20"
+          >
+            💻
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="400"
+            y="140"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#fa709a"
+          >
+            21
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="400"
+            y="160"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            COMMITS
+          </text>
+        </g>
+        
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.2s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="535"
+            y="85"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="650"
+            y="115"
+            text-anchor="middle"
+            font-size="20"
+          >
+            🔄
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="650"
+            y="140"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#3b82f6"
+          >
+            0
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="650"
+            y="160"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            PULL REQUESTS
+          </text>
+        </g>
+        
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.30000000000000004s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="35"
+            y="198"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="150"
+            y="228"
+            text-anchor="middle"
+            font-size="20"
+          >
+            🐛
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="150"
+            y="253"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#f59e0b"
+          >
+            0
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="150"
+            y="273"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            ISSUES
+          </text>
+        </g>
+        
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.4s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="285"
+            y="198"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="400"
+            y="228"
+            text-anchor="middle"
+            font-size="20"
+          >
+            ⭐
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="400"
+            y="253"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#fbbf24"
+          >
+            0
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="400"
+            y="273"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            STARS EARNED
+          </text>
+        </g>
+        
+        <g class="stat-box" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.5s" fill="freeze" />
+          
+          <!-- Box Background -->
+          <rect
+            x="535"
+            y="198"
+            width="230"
+            height="95"
+            rx="12"
+            fill="rgba(51, 65, 85, 0.5)"
+            stroke="rgba(148, 163, 184, 0.15)"
+            stroke-width="1"
+          />
+          
+          <!-- Icon -->
+          <text
+            x="650"
+            y="228"
+            text-anchor="middle"
+            font-size="20"
+          >
+            📚
+          </text>
+          
+          <!-- Value -->
+          <text
+            x="650"
+            y="253"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#34d399"
+          >
+            0
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+          </text>
+          
+          <!-- Label -->
+          <text
+            x="650"
+            y="273"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="10"
+            font-weight="600"
+            letter-spacing="0.5"
+            fill="rgba(148, 163, 184, 0.7)"
+          >
+            REPOSITORIES
+          </text>
+        </g>
+        
+
+      
+      <!-- Streak Section -->
+      <g transform="translate(0, 336)">
+        <!-- Streak Background -->
+        <rect
+          x="35"
+          y="0"
+          width="730"
+          height="90"
+          rx="15"
+          fill="url(#streak-bg)"
+          stroke="rgba(239, 68, 68, 0.2)"
+          stroke-width="1"
+        />
+        
+        <!-- Streak Title -->
+        <text
+          x="400"
+          y="25"
+          text-anchor="middle"
+          font-family="'Inter', sans-serif"
+          font-size="16"
+          font-weight="700"
+          fill="#c9d1d9"
+        >
+          🔥 Contribution Streaks
+        </text>
+        
+        <!-- Current Streak -->
+        <g transform="translate(217.5, 45)">
+          <rect
+            x="-80"
+            y="0"
+            width="160"
+            height="55"
+            rx="10"
+            fill="rgba(239, 68, 68, 0.15)"
+            stroke="rgba(239, 68, 68, 0.3)"
+            stroke-width="1"
+          >
+            <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" />
+          </rect>
+          
+          <text
+            x="0"
+            y="15"
+            text-anchor="middle"
+            font-size="16"
+          >
+            🔥
+          </text>
+          
+          <text
+            x="0"
+            y="35"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="20"
+            font-weight="700"
+            fill="#ef4444"
+          >
+            1 days
+          </text>
+          
+          <text
+            x="0"
+            y="48"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="9"
+            font-weight="600"
+            fill="rgba(148, 163, 184, 0.6)"
+          >
+            CURRENT STREAK
+          </text>
+        </g>
+        
+        <!-- Longest Streak -->
+        <g transform="translate(582.5, 45)">
+          <rect
+            x="-80"
+            y="0"
+            width="160"
+            height="55"
+            rx="10"
+            fill="rgba(139, 92, 246, 0.15)"
+            stroke="rgba(139, 92, 246, 0.3)"
+            stroke-width="1"
+          >
+            <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3s" begin="0.5s" repeatCount="indefinite" />
+          </rect>
+          
+          <text
+            x="0"
+            y="15"
+            text-anchor="middle"
+            font-size="16"
+          >
+            🚀
+          </text>
+          
+          <text
+            x="0"
+            y="35"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="20"
+            font-weight="700"
+            fill="#8b5cf6"
+          >
+            3 days
+          </text>
+          
+          <text
+            x="0"
+            y="48"
+            text-anchor="middle"
+            font-family="'Inter', sans-serif"
+            font-size="9"
+            font-weight="600"
+            fill="rgba(148, 163, 184, 0.6)"
+          >
+            LONGEST STREAK
+          </text>
+        </g>
+      </g>
+      
     </svg>
-  
