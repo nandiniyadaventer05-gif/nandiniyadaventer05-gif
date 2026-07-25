@@ -7,7 +7,7 @@
 
 <div align="center">
 
-### // ABOUT & BIOGRAPHY
+### // EDITORIAL INTRODUCTION
 
 Building modern web applications, interactive UI components, and software solutions.
 
@@ -19,7 +19,7 @@ Building modern web applications, interactive UI components, and software soluti
 
 <div align="center">
 
-### ⚡ Developer Activity & Performance
+### // DEVELOPER PERFORMANCE & ACTIVITY
 
 </div>
 
@@ -27,9 +27,9 @@ Building modern web applications, interactive UI components, and software soluti
 <tr>
 <td width="25%" align="center" valign="top">
 
-#### ⚡ CONTRIBUTIONS
+#### ⚡ ACTIVITY
 # `334`
-<sub>Total Activity</sub>
+<sub>Total Contributions</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
@@ -57,9 +57,9 @@ Building modern web applications, interactive UI components, and software soluti
 <tr>
 <td width="25%" align="center" valign="top">
 
-#### 📦 PUBLIC REPOS
+#### 📦 REPOSITORIES
 # `16`
-<sub>Repositories</sub>
+<sub>Public Projects</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
@@ -91,45 +91,41 @@ Building modern web applications, interactive UI components, and software soluti
 
 <div align="center">
 
-### 🌟 Featured Open Source Repositories
+### // FEATURED PORTFOLIO & CASE STUDIES
 
 </div>
 
-- **[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**  ⭐ `0`
-  _Open source repository project._
+#### 📦 [nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)   
+Open source software repository and architecture.
 
-- **[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)** `JavaScript` ⭐ `0`
-  _Open source repository project._
+#### 📦 [OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)  `JavaScript` 
+Open source software repository and architecture.
 
-- **[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**  ⭐ `0`
-  _Open source repository project._
+#### 📦 [ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)   
+Open source software repository and architecture.
 
-- **[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**  ⭐ `0`
-  _Open source repository project._
+#### 📦 [smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)   
+Open source software repository and architecture.
 
-- **[n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)**  ⭐ `0`
-  _Open source repository project._
+#### 📦 [n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)   
+Open source software repository and architecture.
 
-- **[-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)**  ⭐ `0`
-  _Open source repository project._
-
-
+#### 📦 [-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)   
+Open source software repository and architecture.
 
 ---
 
 <div align="center">
 
-### ⚡ Tech Stack & Ecosystem
+### // TECHNICAL ECOSYSTEM & MATRIX
 
 </div>
 
-#### 🛠️ Frontend & UI
+#### 🛠️ FRONTEND & UI
 `JavaScript`  `React`  `HTML5`  `CSS3`
 
-#### 🛠️ Backend & Languages
+#### 🛠️ BACKEND & LANGUAGES
 `Python`  `Node.js`  `Express`  `Git`
-
-
 
 ---
 
@@ -153,5 +149,5 @@ Building modern web applications, interactive UI components, and software soluti
 ---
 
 <div align="center">
-  <sub>Generated with <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura 2.0</a> • Editorial Portfolio Generator</sub>
+  <sub>Designed with Profile Aura 2.0</sub>
 </div>
