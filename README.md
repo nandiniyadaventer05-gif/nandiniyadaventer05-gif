@@ -3,26 +3,29 @@
 </div>
 
 
-### ⚡ Profile Overview & Key Metrics
 
-<table width="100%">
+<div align="center">
+  <h3>⚡ Key Metrics & Developer Activity</h3>
+</div>
+
+<table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 12px;">
       <h4>📊 Performance & Contributions</h4>
       <ul>
-        <li><b>Total Contributions:</b> 334</li>
-        <li><b>Total Commits:</b> 280</li>
-        <li><b>Pull Requests:</b> 45</li>
-        <li><b>Issues Opened:</b> 18</li>
+        <li><b>Total Contributions:</b> <code>334</code></li>
+        <li><b>Total Commits:</b> <code>280</code></li>
+        <li><b>Pull Requests:</b> <code>45</code></li>
+        <li><b>Issues Opened:</b> <code>18</code></li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <h4>⭐ Community Reach & Stats</h4>
+    <td width="50%" valign="top" style="padding: 12px;">
+      <h4>⭐ Community Reach & Reach</h4>
       <ul>
-        <li><b>Public Repositories:</b> 16</li>
-        <li><b>Stars Earned:</b> 0</li>
-        <li><b>Followers:</b> 1</li>
-        <li><b>Following:</b> 1</li>
+        <li><b>Public Repositories:</b> <code>16</code></li>
+        <li><b>Stars Earned:</b> <code>0</code></li>
+        <li><b>Followers:</b> <code>1</code></li>
+        <li><b>Following:</b> <code>1</code></li>
       </ul>
     </td>
   </tr>
@@ -34,34 +37,42 @@
 </div>
 
 
-### 🛠️ Tech Stack & Ecosystem
 
-#### Frontend & UI
-`JavaScript` `React` `HTML5` `CSS3`
+<div align="center">
+  <h3>🛠️ Core Tech Stack & Ecosystem</h3>
+</div>
 
-#### Backend & Languages
-`Python` `Node.js` `Express` `Git`
+**Frontend & UI**
+
+`JavaScript`  `React`  `HTML5`  `CSS3`
+
+**Backend & Languages**
+
+`Python`  `Node.js`  `Express`  `Git`
 
 
 
-### 🌟 Featured Projects & Repositories
 
-- **[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**  ⭐ 0
+<div align="center">
+  <h3>🌟 Featured Open-Source Repositories</h3>
+</div>
+
+- **[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**  ⭐ **0**
   _No description provided._
 
-- **[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)** `JavaScript` ⭐ 0
+- **[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)** `JavaScript` ⭐ **0**
   _No description provided._
 
-- **[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**  ⭐ 0
+- **[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**  ⭐ **0**
   _No description provided._
 
-- **[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**  ⭐ 0
+- **[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**  ⭐ **0**
   _No description provided._
 
-- **[n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)**  ⭐ 0
+- **[n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)**  ⭐ **0**
   _No description provided._
 
-- **[-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)**  ⭐ 0
+- **[-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)**  ⭐ **0**
   _No description provided._
 
 
