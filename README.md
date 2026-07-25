@@ -17,9 +17,9 @@
 
 #### 📊 Performance & Contributions
 - **Total Contributions:** `334`
-- **Total Commits:** `280`
-- **Pull Requests:** `45`
-- **Issues Opened:** `18`
+- **Total Commits:** `160`
+- **Pull Requests:** `24`
+- **Issues Opened:** `12`
 
 </td>
 <td width="50%" valign="top">

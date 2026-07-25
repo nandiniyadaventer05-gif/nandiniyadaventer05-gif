@@ -1,0 +1,103 @@
+{
+  "github-profile-data-nandiniyadaventer05-gif": {
+    "data": {
+      "name": "Nandini Yadav",
+      "username": "nandiniyadaventer05-gif",
+      "roles": [
+        "Full Stack Engineer",
+        "Open Source Contributor",
+        "UI Designer"
+      ],
+      "bio": "Building modern web applications, interactive UI components, and software solutions.",
+      "company": "Independent Developer",
+      "location": "India",
+      "website": "https://github.com/nandiniyadaventer05-gif",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/230812243?v=4",
+      "followers": 1,
+      "following": 1,
+      "publicRepos": 16,
+      "stats": {
+        "totalContributions": 334,
+        "totalCommits": 160,
+        "totalPRs": 24,
+        "totalIssues": 12,
+        "totalStars": 0,
+        "currentStreak": 14,
+        "longestStreak": 42
+      },
+      "repositories": [
+        {
+          "name": "nandiniyadaventer05-gif",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false
+        },
+        {
+          "name": "OJT-PROJECT",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/OJT-PROJECT",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": {
+            "name": "JavaScript",
+            "color": "#38BDF8"
+          },
+          "isFork": false
+        },
+        {
+          "name": "ecommerce-automation-n8n",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false
+        },
+        {
+          "name": "smart-business-automation",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/smart-business-automation",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false
+        },
+        {
+          "name": "n8n-automation-hub",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/n8n-automation-hub",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false
+        },
+        {
+          "name": "-Kulhad-Chai-Full-Stack-Web-App",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false
+        }
+      ],
+      "topLanguages": [
+        {
+          "name": "JavaScript",
+          "count": 1,
+          "color": "#38BDF8"
+        }
+      ],
+      "socials": {
+        "github": "https://github.com/nandiniyadaventer05-gif",
+        "linkedin": "https://www.linkedin.com/in/nandini-yadav-88b008380/",
+        "email": "mailto:nandiniyadaventer05@gmail.com"
+      }
+    },
+    "timestamp": 1784972336844,
+    "ttlMs": 86400000
+  }
+}
