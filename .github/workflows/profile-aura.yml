@@ -1,45 +1,38 @@
-name: Generate README
+name: Generate Profile Aura
 
 on:
   schedule:
-    # Run every day at midnight
-    - cron: '0 0 * * *'
+    - cron: "0 */12 * * *" # Runs every 12 hours
   workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - profile-aura.config.json
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Setup Node.js
+
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          
-      - name: Clone Profile Aura Repository
-        run: git clone --depth 1 https://github.com/kalashmishra21/profile-aura.git /tmp/profile-aura
-        
-      - name: Install Profile Aura Dependencies & Build Framework
-        run: |
-          cd /tmp/profile-aura
-          npm ci
-          npm run build
-        
-      - name: Generate Profile README
+          node-version: 20
+
+      - name: Generate Profile Aura
+        run: npx profile-aura@latest build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: nandiniyadaventer05-gif
-        run: node /tmp/profile-aura/dist/cli/index.js build
-        
-      - name: Commit and push if changed
+
+      - name: Commit & Push Changes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md .github/assets/generated/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: Update README with latest stats [skip ci]" && git push)
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update profile aura" && git push)
