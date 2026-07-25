@@ -29,16 +29,8 @@
 ---
 
 <div align="center">
-
-### // TECHNICAL ECOSYSTEM & MATRIX
-
+  <img src=".github/assets/generated/techstack.svg" alt="Technical Ecosystem" width="100%" />
 </div>
-
-#### 🛠️ FRONTEND & UI
-`JavaScript`  `React`  `HTML5`  `CSS3`
-
-#### 🛠️ BACKEND & LANGUAGES
-`Python`  `Node.js`  `Express`  `Git`
 
 ---
 
