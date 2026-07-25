@@ -2,8 +2,79 @@
   "github": {
     "username": "nandiniyadaventer05-gif"
   },
+  "profile": {
+    "name": "Nandini Yadav",
+    "username": "nandiniyadaventer05-gif",
+    "roles": [
+      "Full Stack Engineer",
+      "Open Source Contributor",
+      "UI Designer"
+    ],
+    "bio": "Building modern web applications, interactive UI components, and software solutions.",
+    "company": "Independent Developer",
+    "location": "India",
+    "website": "https://github.com/nandiniyadaventer05-gif",
+    "socials": {
+      "github": "https://github.com/nandiniyadaventer05-gif",
+      "linkedin": "https://www.linkedin.com/in/nandini-yadav-88b008380/",
+      "email": "mailto:nandiniyadaventer05@gmail.com"
+    }
+  },
+  "theme": "black-obsidian",
+  "template": "bento-grid",
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "style": "magazine"
+    },
+    "stats": {
+      "enabled": true,
+      "show": [
+        "contributions",
+        "commits",
+        "prs",
+        "issues",
+        "stars",
+        "streak"
+      ]
+    },
+    "streak": {
+      "enabled": true
+    },
+    "techStack": {
+      "enabled": true,
+      "categories": [
+        {
+          "category": "Frontend & UI",
+          "skills": [
+            "JavaScript",
+            "React",
+            "HTML5",
+            "CSS3"
+          ]
+        },
+        {
+          "category": "Backend & Languages",
+          "skills": [
+            "Python",
+            "Node.js",
+            "Express",
+            "Git"
+          ]
+        }
+      ]
+    },
+    "topRepositories": {
+      "enabled": true,
+      "limit": 6
+    },
+    "socials": {
+      "enabled": true
+    }
+  },
   "output": {
     "readmePath": "README.md",
-    "assetsPath": ".github/assets/generated"
+    "assetsDir": ".github/assets/generated",
+    "heroSvgFilename": "hero.svg"
   }
 }

@@ -1,57 +1,82 @@
-# Hi, I am Nandini Yadav! 👋
-
 <div align="center">
-
-![aura card](.github/assets/generated/aura-0.svg)
-
+  <img src=".github/assets/generated/hero.svg" alt="Nandini Yadav Profile Hero" width="100%" />
 </div>
 
-## 💻 Tech Stack
+
+### ⚡ Profile Overview & Key Metrics
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📊 Performance & Contributions</h4>
+      <ul>
+        <li><b>Total Contributions:</b> 334</li>
+        <li><b>Total Commits:</b> 280</li>
+        <li><b>Pull Requests:</b> 45</li>
+        <li><b>Issues Opened:</b> 18</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⭐ Community Reach & Stats</h4>
+      <ul>
+        <li><b>Public Repositories:</b> 16</li>
+        <li><b>Stars Earned:</b> 0</li>
+        <li><b>Followers:</b> 1</li>
+        <li><b>Following:</b> 1</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 <div align="center">
-
-![tech-stack card](.github/assets/generated/tech-stack-1.svg)
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nandiniyadaventer05-gif&theme=black-obsidian&hide_border=true" alt="nandiniyadaventer05-gif's GitHub Streak" />
 </div>
 
-## 📊 GitHub Statistics
 
-<div align="center">
+### 🛠️ Tech Stack & Ecosystem
 
-![github-stats card](.github/assets/generated/github-stats-2.svg)
+#### Frontend & UI
+`JavaScript` `React` `HTML5` `CSS3`
 
-</div>
+#### Backend & Languages
+`Python` `Node.js` `Express` `Git`
 
-## 📈 Most Used Languages
 
-<div align="center">
 
-![languages card](.github/assets/generated/languages-3.svg)
+### 🌟 Featured Projects & Repositories
 
-</div>
+- **[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**  ⭐ 0
+  _No description provided._
 
-## 🔥 GitHub Streak
+- **[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)** `JavaScript` ⭐ 0
+  _No description provided._
 
-<div align="center">
+- **[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**  ⭐ 0
+  _No description provided._
 
-![streak card](.github/assets/generated/streak-4.svg)
+- **[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**  ⭐ 0
+  _No description provided._
 
-</div>
+- **[n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)**  ⭐ 0
+  _No description provided._
 
-## 📫 Connect with Me
+- **[-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)**  ⭐ 0
+  _No description provided._
 
-<div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nandiniyadaventer05-gif)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nandini-yadav-88b008380/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nandiniyadaventer05@gmail.com)
 
-</div>
+### 🤝 Connect & Socials
+
+<p align="center">
+  <a href="https://github.com/nandiniyadaventer05-gif"><img src="https://img.shields.io/badge/GITHUB-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+  <a href="https://www.linkedin.com/in/nandini-yadav-88b008380/"><img src="https://img.shields.io/badge/LINKEDIN-A855F7?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="mailto:nandiniyadaventer05@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=email&logoColor=white" alt="email" /></a>
+</p>
+
+
 
 ---
-
 <div align="center">
-
-**Powered by [Profile Aura](https://github.com/kalashmishra21/profile-aura)** ✨
-
+  <sub>Generated with <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura 2.0</a> • Editorial Portfolio Generator</sub>
 </div>
