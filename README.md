@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/generated/hero.svg" alt="Profile Hero" width="100%" />
+  <img src=".github/assets/generated/hero.svg" alt="Nandini Yadav — Profile Hero" width="100%" />
 </div>
 
 ---
@@ -11,34 +11,28 @@
 ---
 
 <div align="center">
-  <img src=".github/assets/generated/metrics.svg" alt="Developer Performance Metrics" width="100%" />
+  <img src=".github/assets/generated/metrics.svg" alt="Profile Metrics" width="100%" />
 </div>
 
 ---
 
 <div align="center">
 
-### // FEATURED PORTFOLIO & CASE STUDIES
+### // FEATURED PORTFOLIO
 
 </div>
 
-#### 📦 [nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)   
-Open source software repository and architecture.
+**[nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif)**
+No repository description available.
 
-#### 📦 [OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)  `JavaScript` 
-Open source software repository and architecture.
+**[OJT-PROJECT](https://github.com/nandiniyadaventer05-gif/OJT-PROJECT)**  `JavaScript`
+No repository description available.
 
-#### 📦 [ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)   
-Open source software repository and architecture.
+**[ecommerce-automation-n8n](https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n)**
+No repository description available.
 
-#### 📦 [smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)   
-Open source software repository and architecture.
-
-#### 📦 [n8n-automation-hub](https://github.com/nandiniyadaventer05-gif/n8n-automation-hub)   
-Open source software repository and architecture.
-
-#### 📦 [-Kulhad-Chai-Full-Stack-Web-App](https://github.com/nandiniyadaventer05-gif/-Kulhad-Chai-Full-Stack-Web-App)   
-Open source software repository and architecture.
+**[smart-business-automation](https://github.com/nandiniyadaventer05-gif/smart-business-automation)**
+No repository description available.
 
 ---
 
@@ -57,13 +51,6 @@ Open source software repository and architecture.
 ---
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nandiniyadaventer05-gif&theme=black-obsidian&hide_border=true" alt="nandiniyadaventer05-gif's GitHub Streak" />
-</div>
-
-
----
-
-<div align="center">
 
 ### 🤝 Connect & Social Links
 
@@ -76,5 +63,5 @@ Open source software repository and architecture.
 ---
 
 <div align="center">
-  <sub>Designed with Profile Aura 2.0 • SVG-First Portfolio Engine</sub>
+  <sub>Designed with <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura 2.0</a></sub>
 </div>
