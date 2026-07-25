@@ -7,6 +7,18 @@
 
 <div align="center">
 
+### // ABOUT & BIOGRAPHY
+
+Building modern web applications, interactive UI components, and software solutions.
+
+<sub>📍 India   •   🏢 Independent Developer   •   🌐 [https://github.com/nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif)</sub>
+
+</div>
+
+---
+
+<div align="center">
+
 ### ⚡ Developer Activity & Key Performance
 
 </div>
@@ -33,29 +45,6 @@
 </td>
 </tr>
 </table>
-
-
----
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nandiniyadaventer05-gif&theme=black-obsidian&hide_border=true" alt="nandiniyadaventer05-gif's GitHub Streak" />
-</div>
-
-
----
-
-<div align="center">
-
-### ⚡ Tech Stack & Ecosystem
-
-</div>
-
-#### 🛠️ Frontend & UI
-`JavaScript`  `React`  `HTML5`  `CSS3`
-
-#### 🛠️ Backend & Languages
-`Python`  `Node.js`  `Express`  `Git`
-
 
 
 ---
@@ -90,6 +79,29 @@
 
 <div align="center">
 
+### ⚡ Tech Stack & Ecosystem
+
+</div>
+
+#### 🛠️ Frontend & UI
+`JavaScript`  `React`  `HTML5`  `CSS3`
+
+#### 🛠️ Backend & Languages
+`Python`  `Node.js`  `Express`  `Git`
+
+
+
+---
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nandiniyadaventer05-gif&theme=black-obsidian&hide_border=true" alt="nandiniyadaventer05-gif's GitHub Streak" />
+</div>
+
+
+---
+
+<div align="center">
+
 ### 🤝 Connect & Social Links
 
 <p align="center">
@@ -100,7 +112,6 @@
 
 ---
 
----
 <div align="center">
   <sub>Generated with <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura 2.0</a> • Editorial Portfolio Generator</sub>
 </div>
