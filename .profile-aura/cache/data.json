@@ -14,10 +14,16 @@
       "website": "https://github.com/nandiniyadaventer05-gif",
       "avatarUrl": "https://avatars.githubusercontent.com/u/230812243?v=4",
       "followers": 1,
-      "following": 1,
+      "following": 0,
       "publicRepos": 16,
       "stats": {
-        "totalStars": 0
+        "totalStars": 0,
+        "totalContributions": 60,
+        "totalCommits": 43,
+        "totalPRs": 0,
+        "totalIssues": 0,
+        "currentStreak": 2,
+        "longestStreak": 3
       },
       "repositories": [
         {
@@ -28,7 +34,7 @@
           "forkCount": 0,
           "primaryLanguage": null,
           "isFork": false,
-          "updatedAt": "2026-07-25T12:59:51Z",
+          "updatedAt": "2026-07-25T14:46:14Z",
           "license": null
         },
         {
@@ -103,7 +109,7 @@
         "email": "mailto:nandiniyadaventer05@gmail.com"
       }
     },
-    "timestamp": 1784984982396,
+    "timestamp": 1784990884480,
     "ttlMs": 86400000
   }
 }
