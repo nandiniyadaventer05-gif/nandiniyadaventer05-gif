@@ -1,91 +1,18 @@
 <div align="center">
-  <img src=".github/assets/generated/hero.svg" alt="Nandini Yadav Profile Hero" width="100%" />
-</div>
-
-
----
-
-<div align="center">
-
-### // EDITORIAL INTRODUCTION
-
-Building modern web applications, interactive UI components, and software solutions.
-
-<sub>📍 India   •   🏢 Independent Developer   •   🌐 [https://github.com/nandiniyadaventer05-gif](https://github.com/nandiniyadaventer05-gif)</sub>
-
+  <img src=".github/assets/generated/hero.svg" alt="Profile Hero" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-
-### // DEVELOPER PERFORMANCE & ACTIVITY
-
+  <img src=".github/assets/generated/overview.svg" alt="Profile Overview" width="100%" />
 </div>
 
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
-<td width="25%" align="center" valign="top">
+---
 
-#### ⚡ ACTIVITY
-# `334`
-<sub>Total Contributions</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### 💻 COMMITS
-# `160`
-<sub>Code Commits</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### 🔀 PULL REQUESTS
-# `24`
-<sub>Merged PRs</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### 🎯 ISSUES
-# `12`
-<sub>Resolved Issues</sub>
-
-</td>
-</tr>
-<tr>
-<td width="25%" align="center" valign="top">
-
-#### 📦 REPOSITORIES
-# `16`
-<sub>Public Projects</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### ⭐ TOTAL STARS
-# `0`
-<sub>Stars Earned</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### 👥 FOLLOWERS
-# `1`
-<sub>Community</sub>
-
-</td>
-<td width="25%" align="center" valign="top">
-
-#### 🔄 FOLLOWING
-# `1`
-<sub>Following</sub>
-
-</td>
-</tr>
-</table>
-
+<div align="center">
+  <img src=".github/assets/generated/metrics.svg" alt="Developer Performance Metrics" width="100%" />
+</div>
 
 ---
 
@@ -149,5 +76,5 @@ Open source software repository and architecture.
 ---
 
 <div align="center">
-  <sub>Designed with Profile Aura 2.0</sub>
+  <sub>Designed with Profile Aura 2.0 • SVG-First Portfolio Engine</sub>
 </div>
