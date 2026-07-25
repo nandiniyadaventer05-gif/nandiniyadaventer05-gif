@@ -27,17 +27,17 @@ jobs:
       - name: Clone Profile Aura Repository
         run: git clone https://github.com/kalashmishra21/profile-aura.git /tmp/profile-aura
         
-      - name: Install Profile Aura Dependencies
+      - name: Install Profile Aura Dependencies & Build Framework
         run: |
           cd /tmp/profile-aura
           npm ci
           npm run build
         
-      - name: Generate README
+      - name: Generate Profile README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: nandiniyadaventer05-gif
-        run: node /tmp/profile-aura/dist/cli.js build
+        run: node /tmp/profile-aura/dist/cli/index.js build
         
       - name: Commit and push if changed
         run: |
