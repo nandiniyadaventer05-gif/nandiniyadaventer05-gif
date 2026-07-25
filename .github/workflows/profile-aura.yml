@@ -1,8 +1,6 @@
 name: Generate README
 
 on:
-  push:
-    branches: [ main, master ]
   schedule:
     # Run every day at midnight
     - cron: '0 0 * * *'
@@ -25,7 +23,7 @@ jobs:
           node-version: '20'
           
       - name: Clone Profile Aura Repository
-        run: git clone https://github.com/kalashmishra21/profile-aura.git /tmp/profile-aura
+        run: git clone --depth 1 https://github.com/kalashmishra21/profile-aura.git /tmp/profile-aura
         
       - name: Install Profile Aura Dependencies & Build Framework
         run: |
