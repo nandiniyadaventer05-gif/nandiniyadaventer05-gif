@@ -26,7 +26,7 @@ jobs:
           node-version: 20
 
       - name: Generate Profile Aura
-        run: npx profile-aura@latest build
+        run: npx --yes profile-aura@2.0.11 build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
