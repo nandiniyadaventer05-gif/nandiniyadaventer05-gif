@@ -1,23 +1,23 @@
 <div align="center">
-  <img src=".github/assets/generated/hero.svg?v=1785070367" alt="Nandini Yadav — Profile Hero" width="100%" />
+  <img src=".github/assets/generated/hero.svg?v=1785116767" alt="Nandini Yadav — Profile Hero" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <img src=".github/assets/generated/overview.svg?v=1785070367" alt="Profile Overview" width="100%" />
+  <img src=".github/assets/generated/overview.svg?v=1785116767" alt="Profile Overview" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <img src=".github/assets/generated/metrics.svg?v=1785070367" alt="Profile Metrics" width="100%" />
+  <img src=".github/assets/generated/metrics.svg?v=1785116767" alt="Profile Metrics" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <img src=".github/assets/generated/techstack.svg?v=1785070367" alt="Technical Ecosystem" width="100%" />
+  <img src=".github/assets/generated/techstack.svg?v=1785116767" alt="Technical Ecosystem" width="100%" />
 </div>
 
 ---
