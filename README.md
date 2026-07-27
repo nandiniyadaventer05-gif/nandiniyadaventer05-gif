@@ -1,23 +1,23 @@
 <div align="center">
-  <a target="_blank" href=".github/assets/generated/hero.svg?v=1785143983"><img src=".github/assets/generated/hero.svg?v=1785143983" alt="Nandini Yadav — Profile Hero" width="100%" title="✨ made by profile-aura" /></a>
+  <img src=".github/assets/generated/hero.svg?v=1785144067" alt="Nandini Yadav — Profile Hero" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <a target="_blank" href=".github/assets/generated/overview.svg?v=1785143983"><img src=".github/assets/generated/overview.svg?v=1785143983" alt="Profile Overview" width="100%" title="✨ made by profile-aura" /></a>
+  <img src=".github/assets/generated/overview.svg?v=1785144067" alt="Profile Overview" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <a target="_blank" href=".github/assets/generated/metrics.svg?v=1785143983"><img src=".github/assets/generated/metrics.svg?v=1785143983" alt="Profile Metrics" width="100%" title="✨ made by profile-aura" /></a>
+  <img src=".github/assets/generated/metrics.svg?v=1785144067" alt="Profile Metrics" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <a target="_blank" href=".github/assets/generated/techstack.svg?v=1785143983"><img src=".github/assets/generated/techstack.svg?v=1785143983" alt="Technical Ecosystem" width="100%" title="✨ made by profile-aura" /></a>
+  <img src=".github/assets/generated/techstack.svg?v=1785144067" alt="Technical Ecosystem" width="100%" />
 </div>
 
 ---
@@ -35,5 +35,5 @@
 ---
 
 <div align="center">
-  <sub>Designed by <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura</a></sub>
+  <sub>Designed with <a href="https://github.com/kalashmishra21/profile-aura">Profile Aura 2.0</a></sub>
 </div>
