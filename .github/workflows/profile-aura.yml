@@ -10,6 +10,7 @@ on:
       - master
     paths:
       - profile-aura.config.json
+      - readme.source.md
 
 jobs:
   generate:
