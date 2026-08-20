@@ -128,14 +128,14 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/230812243?v=4",
       "followers": 0,
       "following": 0,
-      "publicRepos": 0,
+      "publicRepos": 17,
       "stats": {
         "totalStars": 0,
         "totalContributions": 77,
         "totalCommits": 59,
         "totalPRs": 0,
         "totalIssues": 0,
-        "currentStreak": 1,
+        "currentStreak": 0,
         "longestStreak": 4,
         "contributionCalendar": [
           {
@@ -2521,18 +2521,98 @@
           {
             "date": "2026-08-19",
             "count": 0
+          },
+          {
+            "date": "2026-08-20",
+            "count": 0
           }
         ]
       },
-      "repositories": [],
-      "topLanguages": [],
+      "repositories": [
+        {
+          "name": "nandiniyadaventer05-gif",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/nandiniyadaventer05-gif",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false,
+          "updatedAt": "2026-08-20T00:31:23Z",
+          "license": null
+        },
+        {
+          "name": "priv",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/priv",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false,
+          "updatedAt": "2026-08-18T13:05:08Z",
+          "license": null
+        },
+        {
+          "name": "OJT-PROJECT",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/OJT-PROJECT",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": {
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          },
+          "isFork": false,
+          "updatedAt": "2026-05-06T10:37:49Z",
+          "license": null
+        },
+        {
+          "name": "ecommerce-automation-n8n",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/ecommerce-automation-n8n",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:56:16Z",
+          "license": null
+        },
+        {
+          "name": "smart-business-automation",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/smart-business-automation",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:55:47Z",
+          "license": null
+        },
+        {
+          "name": "n8n-automation-hub",
+          "description": "",
+          "url": "https://github.com/nandiniyadaventer05-gif/n8n-automation-hub",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "primaryLanguage": null,
+          "isFork": false,
+          "updatedAt": "2026-05-01T08:55:04Z",
+          "license": null
+        }
+      ],
+      "topLanguages": [
+        {
+          "name": "JavaScript",
+          "count": 1,
+          "color": "#f1e05a"
+        }
+      ],
       "socials": {
         "github": "https://github.com/nandiniyadaventer05-gif",
         "linkedin": "https://www.linkedin.com/in/nandini-yadav-88b008380/",
         "email": "mailto:nandiniyadaventer05@gmail.com"
       }
     },
-    "timestamp": 1787141954401,
+    "timestamp": 1787228477868,
     "ttlMs": 86400000
   }
 }
